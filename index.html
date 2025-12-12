@@ -1,44 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Static Site</title>
+  <title>Alton Towers Resort</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://tse4.mm.bing.net/th/id/OIP.LH5EVK1-DOh1FahU7u_NmgHaFF?rs=1&pid=ImgDetMain&o=7&rm=3">
 </head>
+
 <body>
   <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <!-- Add more links here -->
-      </ul>
-    </nav>
-    <h1>My Static Site</h1>
+    <div>
+      <h1>Alton Towers Resort</h1>
+      <!--
+      <img
+        src="https://tse4.mm.bing.net/th/id/OIP.LH5EVK1-DOh1FahU7u_NmgHaFF?rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="Alton Towers Logo">
+      -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- Add more links here -->
+          <li><button type="button" id="theme-toggle" aria-label="Toggle dark mode">
+              <span class="toggle-text">Dark</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
   </header>
   <main>
     <section class="hero">
       <h2>Welcome!</h2>
-      <p>This is your simple multipage static site starter template.</p>
+      <p>This is your guide to a brilliant Alton Towers getaway.</p>
     </section>
-    <section class="features">
+    <section>
       <article>
+            <p>Ready for an unforgettable adventure?<br>
+                Alton Towers Resort is the UK’s ultimate destination for thrill rides, magical family fun, and
+                breathtaking scenery.<br>
+                Whether you're chasing adrenaline on world-famous rollercoasters or exploring enchanted lands with the
+                little ones,
+                every visit promises excitement, wonder, and memories that last a lifetime.</p>
+        </article>
+
+        <article>
+            <h3>Range of Rides</h3>
+            <ul>
+                <li>The Smiler</li>
+                <li>Nemesis Reborn</li>
+                <li>Oblivion</li>
+                <li>Wickerman</li>
+            </ul>
+        </article>
+        <article>
+            <h3> Family Fun</h3>
+            <ul>
+                <li>Character Meet N Greets</li>
+                <ul>
+                    <li>With characters such as Octonauts, and Peter Rabbit!</li>
+                </ul>
+                <img src="https://th.bing.com/th/id/OIP.6EUgMAUPENvI3cosSV_WmQHaFs?w=240&h=185&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+                    width=300 height=200 alt="Characters">
+                <li>Imaginative Play Areas</li>
+                <img src="https://th.bing.com/th/id/OIP.axaRq1xQKizuyULAr9fKowHaFj?w=293&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+                    width=300 height=200 alt="Play area">
+            </ul>
+        </article>
+        <article>
+            <h3>Regular Events</h3>
+            <p>Coming soon, throughout December and January, will be Christmas events such as:</p>
+            <ul>
+                <li>Santa's Grotto</li>
+                <li>Seasonal rides</li>
+            </ul>
+            <img src="https://th.bing.com/th/id/OIP.eDWh7VyTRcqgFbZx-1NqEgHaEK?w=318&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+                width=300 height=200 alt="Santa's Grotto">
+        </article>
+        
+      <article>
+        <h2>Map of the park in the UK</h2>
+        <div class = "map">
+
+        </div>
+            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-1.8999481201171877%2C52.98245960150173%2C-1.8717956542968752%2C52.994072037275394&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=16/52.98827/-1.88587">View Larger Map</a></small>
+        </div>
+
+        <h3>Themed Areas</h3>
+        <p>Alton Towers is divided into distinct themed zones, each offering its own atmosphere and attractions:</p>
+          <ul>
+            <li>Forbidden Valley – home to Nemesis Reborn, a land of alien invasion and sci-fi thrills.</li>
+            <li>X-Sector – futuristic and edgy, featuring The Smiler and Oblivion.</li>
+            <li>Dark Forest – mysterious woodland setting with TH13TEEN and Rita.</li>
+            <li>Gloomy Wood – spooky adventures with haunted rides and eerie pathways.</li>
+            <li>Adventure Land – family-friendly fun with smaller rides and interactive play.</li>
+          </ul>
+        <p>This variety ensures that every visitor finds something tailored to their taste, whether they’re thrill-seekers or casual explorers.</p>
+          <figure>
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8buPkDpbsVU?si=PUVN1H7RKdwv3dx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          </figure>
+          <h3>Food + Dining</h3>
+          <p>The resort offers a wide range of dining options, from quick snacks to sit-down meals:</p>
+          <ul>
+            <li>Woodcutters Bar & Grill – hearty meals near the park entrance.</li>
+            <li>Explorers Pizza & Pasta Buffet – unlimited pizza, pasta, and salad for families.</li>
+            <li>Rollercoaster Restaurant – a unique dining experience where food travels to your table on mini rollercoasters.</li>
+            <li>Coffee Shops & Stalls – scattered throughout the park for quick refreshments.</li>
+          </ul>
+          <p>Visitors can also find themed treats during seasonal events, such as Halloween-inspired snacks at Scarefest or festive hot chocolate during Christmas celebrations.</p>
+          <figure>
+        <img src="data:image/webp;base64,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"
+          alt="Restaurant at Alton Towers">
+          <figcaption>Restaurant at Alton Towers</figcaption>
+        </figure>
+        <p>Visiting Alton Towers is more than just a day at a theme park; it’s an immersive journey into a world of imagination, adrenaline, and discovery.
+         From the moment guests walk through the gates, they are greeted by the grandeur of the historic Towers and the sweeping landscaped gardens that set the stage for adventure. The park balances its heritage with cutting-edge innovation, offering a unique blend of history and modern thrills. Whether you’re wandering through the tranquil pathways of the gardens or strapping into a record-breaking roller coaster, every corner of the resort is designed to surprise and delight.
+        </p>
+      
+          <p>One of the most appealing aspects of Alton Towers is its ability to transform a day trip into a full holiday. The resort’s themed hotels and lodges extend the magic beyond the park gates. Guests can choose from the whimsical Alton Towers Hotel, the tropical Splash Landings Hotel, or the fairy-tale Enchanted Village lodges. For those seeking luxury, the Treehouses provide secluded retreats with private hot tubs and stunning woodland views.
+           Staying on-site means guests can enjoy exclusive perks such as early ride access, evening entertainment, and easy access to the waterpark and golf course, making the experience seamless and unforgettable.</p>
+      
+        </article>
+
+    </section>
+
+    <section class="features">
+      <aside>
         <h3>HTML5</h3>
         <p>Uses semantic tags for better accessibility and SEO.</p>
-      </article>
-      <article>
+      </aside>
+      <aside>
         <h3>CSS3 Flexbox & Grid</h3>
         <p>Responsive layout using modern CSS techniques.</p>
-      </article>
-      <article>
+      </aside>
+      <aside>
         <h3>Multi-page</h3>
         <p>Just copy and modify the template for new pages.</p>
-      </article>
+      </aside>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 Your Name</p>
+    <p>&copy; 2025 Alton Towers</p>
   </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
